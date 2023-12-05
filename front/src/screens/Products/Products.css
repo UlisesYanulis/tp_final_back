@@ -1,0 +1,31 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css");
+
+.containerDeCards{
+    display: flex;
+    width: 100%;
+    justify-content: left;
+    background-color: rgb(70, 68, 68);
+    padding: 7vw;
+    gap: 5vw;
+    flex-wrap: wrap;
+    margin-top: 11vh;
+}
+
+.botonDeAgregar{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 40px;
+    width: 22vw;
+    height: 55vh;
+    border: 2px solid black;
+    background-color: rgb(31, 31, 31);
+}
+
+.botonDeAgregar i{
+    display: flex;
+    font-size: 75px;
+    color: rgb(144, 150, 151);
+    justify-content: center;
+    margin-top: 21.5vh;
+}

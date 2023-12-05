@@ -1,0 +1,88 @@
+/* Normalizer */
+*{
+    font-family: 'anakinmonoregular';
+    text-decoration: none;
+}
+
+.containerHeader{
+    background-color: rgb(56, 56, 56);
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    padding: 25px;
+}
+
+.headerTitle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.8vw;
+    width: 8vw;
+    height: 58px;
+    padding: 10px;
+    background-color: rgb(117,127,129);
+    border-radius: 10px;
+}
+
+.logoImperio{
+    width: 2.5vw;
+}
+
+.title{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-family: 'Star Wars', sans-serif;
+}
+
+.botones{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+.boton{
+    display: flex;
+    align-items: center;
+    background-color: rgb(174,187,190);
+    border: 1px solid rgb(117,127,129);
+    gap: 0.8vw;
+    width: 8vw;
+    height: 6vh;
+    padding: 10px;
+    border-right: none;
+}
+
+@media (min-width: 360px) and (max-width: 480px)
+{
+
+    .containerHeader{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        padding: 40px;
+    }
+
+    .botones{
+        display: flex;
+        gap: 1vw;
+        width: 5vw;
+    }
+
+    .boton{
+        display: flex;
+        width: 10vw;
+        width: 20vw;
+    }
+
+    .imageniconos{
+        font-size: 2px;
+    }
+
+
+
+
+}

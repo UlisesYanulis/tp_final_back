@@ -1,0 +1,58 @@
+.contactFormBody{
+    background-color: rgb(31, 31, 31);
+    display: flex;
+    justify-content: center;
+    padding: 15vh;
+}
+
+.card{ 
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    gap: 3vh;
+    width: 50vw;
+    height: 82vh;
+    border: 2px solid black;
+    background-color: rgb(100, 100, 100);
+    padding: 2vw;
+    border-radius: 15px;
+}
+
+.inputContact{
+    padding: 5px 6px;
+    width: 45vw;
+    height: 6vh;
+    background-color: rgb(56, 56, 56);
+    border: 1px solid rgb(117,127,129);
+    border-radius: 20px;
+    color: rgb(144, 150, 151);
+}
+
+.inputContact::placeholder{
+    color: rgba(144, 150, 151, 0.527);
+}
+
+.inputContactMessage{
+    padding: 5px 6px;
+    width: 45vw;
+    height: 12vh;
+    background-color: rgb(56, 56, 56);
+    border: 1px solid rgb(117,127,129);
+    border-radius: 20px;
+    color: rgb(144, 150, 151);
+}
+
+.inputName{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    gap: 1vh;
+}
+
+.botonContact{
+    margin-left: 19vw;
+    width: 8vw;
+    height: 4vh;
+    border-radius: 20px;
+    border: 1px solid rgb(117,127,129);
+}

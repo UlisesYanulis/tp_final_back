@@ -1,0 +1,95 @@
+.update-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 1000px;
+  background-color: rgb(70, 68, 68);
+  color: rgb(144, 150, 151);
+}
+
+.update-product-card {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-left: 40px;
+  width: 14vw;
+  height: 35vh;
+  border: 2px solid black;
+  background-color: rgb(31, 31, 31);
+}
+
+.update-product-card img {
+  width: 150px;
+  display: block;
+  margin: 0 auto 10px;
+}
+
+.fallback-image{
+  margin-top: 100px;
+}
+
+.update-product-card h3 {
+  font-size: 18px;
+  margin: 0;
+  margin-top: 50px;
+}
+
+.update-product-card p {
+  font-size: 14px;
+  margin: 5px 0;
+}
+
+.update-right {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-left: 40px;
+  width: 14vw;
+  height: 35vh;
+  border: 2px solid black;
+  background-color: rgb(31, 31, 31);
+}
+
+.update-right h1 {
+  font-size: 24px;
+  margin: 0;
+}
+
+.update-right h2 {
+  font-size: 16px;
+  margin: 10px 0;
+  color: #777;
+}
+
+.update-form {
+  display: flex;
+  flex-direction: column;
+  color: rgb(144, 150, 151);
+}
+
+.update-form label {
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+.update-form input {
+  padding: 8px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  width: 100%;
+  height: 30px;
+}
+
+.update-button {
+  background-color: #757575;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.input{
+  background-color: rgb(56, 56, 56);
+  color: #777;
+}
